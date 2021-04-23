@@ -5,8 +5,7 @@ console.log('****** Part Supply *******');
 //    & console.log the variable
 console.log('1. Number of partsNeeded:');
 
-let = partsNeeded;
-partsNeeded = 40;
+let partsNeeded = 40;
 console.log(partsNeeded);
 
 // 2. Create a variable call 'supplyChanges' set it to an array containing
@@ -18,7 +17,7 @@ let supplyChanges = [3, 5, -6, 0, 7, 11];
 // 3. Console log the value of 'supplyChanges' at index 2
 console.log('3. Item at index 2 is:');
 
-console.log(-6);
+console.log('3. Item at index 2 is', supplyChanges2);
 
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges'
 //    array & console.log the value removed.
@@ -39,7 +38,7 @@ supplyChanges.push(25);
 //    - if the value is negative, format the log as 'Part count -x.'
 console.log('6. Showing supplyChanges...');
 
-for (let x = 0; supplyChanges [x] < supplyChanges.length; x ++){
+for (let x = 0; x < supplyChanges.length; x ++){
   if (supplyChanges [x] > 0){
     console.log(`Added `+ x +` parts.`);
   } else if (supplyChanges [x] > 0){
